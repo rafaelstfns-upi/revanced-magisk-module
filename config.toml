@@ -1,20 +1,8 @@
 enable-magisk-update = true
 parallel-jobs = 1
 
-[Instagram]
-apkmirror-dlurl = "https://apkmirror.com/apk/instagram/instagram-instagram/"
-arch = "arm64-v8a"
-build-mode = "both"
-included-patches = "'Hide ads' 'Disable signature check'"
-exclusive-patches = true
-
 [Music]
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
-arch = "arm64-v8a"
-build-mode = "both"
-
-[Tiktok]
-apkmirror-dlurl = "https://apkmirror.com/apk/tiktok-pte-ltd/tik-tok-including-musical-ly/"
 arch = "arm64-v8a"
 build-mode = "both"
 
@@ -28,13 +16,3 @@ apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/photos/"
 arch = "arm64-v8a"
 build-mode = "both"
 included-patches = "'Enable DCIM folders backup control'"
-
-[Photomath]
-apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/photomath/"
-arch = "arm64-v8a"
-build-mode = "both"
-
-[Strava]
-apkmirror-dlurl = "https://www.apkmirror.com/apk/strava-inc/strava-run-hike-bike/"
-arch = "arm64-v8a"
-build-mode = "both"
